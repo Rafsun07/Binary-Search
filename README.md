@@ -19,3 +19,7 @@ Return -1 if not found
 naive search: scan entire list and ask if its equal to the target
 if yes, return the index
 if no, then return -1
+
+
+binary search uses divide and conquer!
+we will leverage the fact that our list is SORTED
