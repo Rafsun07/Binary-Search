@@ -8,9 +8,6 @@ def naive_search(l, target):
             return i
     return -1
 
-
-# binary search uses divide and conquer!
-# we will leverage the fact that our list is SORTED
 def binary_search(l, target, low=None, high=None):
     if low is None:
         low = 0
